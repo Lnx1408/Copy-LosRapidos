@@ -13,7 +13,7 @@ namespace CapaNegocio
     public class ClsAmbulancia
     {
         protected String modelo;
-        protected String tipoAmbulancia;  //Asistenciales, no asistenciales.
+        protected String tipoAmbulancia;  //Asistenciales y no asistenciales.
         protected String placa;
         protected String matricula;
     
