@@ -23,6 +23,8 @@ namespace CapaNegocio.Usuario
         {
 
         }
+        
+        /* ----COMENTARIO DE PRUEBA -----*/
 
 
         /* --------------- Getters y Setters ------------------------- */
