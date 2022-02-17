@@ -66,7 +66,7 @@ namespace CapaNegocio
                 int t = Convert.ToInt32(comannd.ExecuteScalar()); // con esa linea executa el insert a la bd
 
                     baseDatos.cerrar_conexion(conexion);
-                msj = "Cliente registrado con éxito";
+                msj = "El cliente ha sido registrado exitosamente";
             }
             catch (Exception ex)
             {
