@@ -201,7 +201,7 @@ namespace CapaNegocio
         }
         /// <summary>
         /// Los datos se obtienen de la base de datos por medio de los Stored procedure y se muestra en el formulario "frmActualizarCliente"
-        /// El objeto Cliente llena con parámetros solicitados.
+        /// El objeto Cliente llena con parámetros.
         /// El método retorna un valor entero que indica el número de elementos que han sido modificados.
         /// </summary>
         /// <returns></returns>
