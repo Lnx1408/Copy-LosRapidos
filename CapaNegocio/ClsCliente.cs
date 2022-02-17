@@ -67,6 +67,9 @@ namespace CapaNegocio
 
                     baseDatos.cerrar_conexion(conexion);
                 msj = "Se registro exitosamente sus datos (BY: Arlette Rama).";
+
+             
+
             }
             catch (Exception ex)
             {
