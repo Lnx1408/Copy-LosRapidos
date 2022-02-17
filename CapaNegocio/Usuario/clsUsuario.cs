@@ -27,7 +27,7 @@ namespace CapaNegocio.Usuario
         /* ----COMENTARIO DE PRUEBA -----*/
 
 
-        /* --------------- Getters y Setters ------------------------- */
+        /* --------------- Getters y Setters XD ------------------------- */
         public String Nombre
         {
             get { return nombre; }
