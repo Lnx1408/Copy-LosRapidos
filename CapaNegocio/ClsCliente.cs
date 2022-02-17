@@ -35,9 +35,8 @@ namespace CapaNegocio
         clsBaseDatos baseDatos = new clsBaseDatos();
         /// <summary>
         /// Los datos 
-        /// El objeto Cliente llena con parámetros solicitados.
-        /// El método retorna una lista de objetos donde los lleva a la capa de presentación y se le mostrará al usuario el DataGridView.
         /// </summary>
+        /// El método retorna una lista de objetos donde los lleva 
         /// <returns></returns>
         public override String registrar()
         {
@@ -66,14 +65,14 @@ namespace CapaNegocio
                 int t = Convert.ToInt32(comannd.ExecuteScalar()); // con esa linea executa el insert a la bd
 
                     baseDatos.cerrar_conexion(conexion);
-                msj = "Se registro exitosamente sus datos (BY: Arlette Rama).";
 
-             
+                msj = "Se han registrado de forma exitosa cada cambio (BY: Calvopiña)";
+        
 
             }
             catch (Exception ex)
             {
-                msj = "Motivos de error:\n\n- No se puede acceder a la base de datos\n- Los Datos de la cedula ya existen";
+                msj = "Motivos de error:\n\n- No se puede acceder a la base de datos\n- Los Datos de la cedula";
                 Console.WriteLine(ex.Message);
 
             }
