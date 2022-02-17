@@ -66,8 +66,7 @@ namespace CapaNegocio
 
                     baseDatos.cerrar_conexion(conexion);
 
-                msj = "Se han registrado de forma exitosa cada cambio (BY: Calvopiña)";
-        
+                msj = "El registro se ha realizado de forma exitosa (BY: Alvaro)";
 
             }
             catch (Exception ex)
