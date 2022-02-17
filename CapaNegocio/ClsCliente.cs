@@ -34,7 +34,7 @@ namespace CapaNegocio
        
         clsBaseDatos baseDatos = new clsBaseDatos();
         /// <summary>
-        /// Los datos se obtienen de la base de datos por medio de los Stored procedure/
+        /// Los datos 
         /// El objeto Cliente llena con parámetros solicitados.
         /// El método retorna una lista de objetos donde los lleva a la capa de presentación y se le mostrará al usuario el DataGridView.
         /// </summary>
