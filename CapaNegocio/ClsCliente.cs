@@ -80,7 +80,7 @@ namespace CapaNegocio
         }
         /// <summary>
         /// Los datos se obtienen de la base de datos por medio de los Stored procedure.
-        /// El objeto Cliente llena con parámetros solicitados.
+        /// El objeto Cliente llena con parámetros .
         /// El método retorna una lista de objetos donde los lleva a la capa de presentación y se le mostrará al usuario el DataGridView.
         /// </summary>
         /// <returns></returns>
